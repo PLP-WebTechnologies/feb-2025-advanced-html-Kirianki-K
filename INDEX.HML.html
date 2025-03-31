@@ -1,0 +1,127 @@
+<!-- This is a simple HTML document for Keith Photography -->
+<!-- The document includes an introduction, where the business operates, sample photographs, contacts, and a registration form. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keith Photography</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f9f9f9; color: #333;">
+    <h1 style="text-align: center; color: #444;">INTRODUCTION</h1>
+    <p>Keith Photography is a photography business that specializes in capturing beautiful moments for clients. The business is owned and operated by Keith, who has a passion for photography and a keen eye for detail.</p>
+    
+    <h2 style="color: #555;">WHERE WE OPERATE</h2>
+    <p>Keith Photography operates in various locations, including:</p>
+    <ol type="I" style="margin-left: 20px;">
+        <li>New York City</li>
+        <li>Los Angeles</li>
+        <li>Chicago</li>
+        <li>Miami</li>
+    </ol>
+    <p>We work at:</p>
+    <ol type="I" style="margin-left: 20px;">
+        <li>Weddings</li>
+        <li>Corporate Events</li>
+        <li>Family Portraits</li>
+        <li>Fashion Shoots</li>
+    </ol>
+    
+    <h2 style="color: #555;">SAMPLE PHOTOGRAPHS</h2>
+    <p>Here are some of the photographs proudly captured by Keith Photography personnel:</p>
+    <figure style="margin-bottom: 20px;">
+        <img src="https://images.pexels.com/photos/340874/pexels-photo-340874.jpeg" alt="Beautiful Landscape" style="width:100%;max-width:600px; border: 1px solid #ddd; border-radius: 5px;">
+        <figcaption style="text-align: center; font-size: 0.9em;">Photo by <a href="https://www.pexels.com/@pixabay" style="color: #007BFF;">Pixabay</a> on <a href="https://www.pexels.com/" style="color: #007BFF;">Pexels</a></figcaption>
+    </figure>
+    <figure style="margin-bottom: 20px;">
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Scenic Mountain View" style="width:100%;max-width:600px; border: 1px solid #ddd; border-radius: 5px;">
+        <figcaption style="text-align: center; font-size: 0.9em;">Photo by <a href="https://www.pexels.com/@pixabay" style="color: #007BFF;">Pixabay</a> on <a href="https://www.pexels.com/" style="color: #007BFF;">Pexels</a></figcaption>
+    </figure>
+    <figure style="margin-bottom: 20px;">
+        <img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg" alt="Serene Beach Sunset" style="width:100%;max-width:600px; border: 1px solid #ddd; border-radius: 5px;">
+        <figcaption style="text-align: center; font-size: 0.9em;">Photo by <a href="https://www.pexels.com/@skitterphoto" style="color: #007BFF;">Skitterphoto</a> on <a href="https://www.pexels.com/" style="color: #007BFF;">Pexels</a></figcaption>
+    </figure>
+    
+    <p>As you clearly see, these photographs show the talent and passion our personnel have for photography.</p>
+    
+    <h2 style="color: #555;">CONTACTS</h2>
+    <p>Below are some of the contacts of our personnel if you are interested in our services:</p>
+    <table border="1" style="width:100%; text-align:left; border-collapse:collapse; background-color: #fff; border: 1px solid #ddd;">
+        <thead style="background-color: #f2f2f2;">
+            <tr>
+                <th style="padding: 8px;">Name</th>
+                <th style="padding: 8px;">Address</th>
+                <th style="padding: 8px;">Mobile</th>
+                <th style="padding: 8px;">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 8px;">Keith Johnson</td>
+                <td style="padding: 8px;">123 Main St, New York, NY</td>
+                <td style="padding: 8px;">(123) 456-7890</td>
+                <td style="padding: 8px;">keith.johnson@example.com</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px;">Sarah Lee</td>
+                <td style="padding: 8px;">456 Elm St, Los Angeles, CA</td>
+                <td style="padding: 8px;">(987) 654-3210</td>
+                <td style="padding: 8px;">sarah.lee@example.com</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px;">Michael Brown</td>
+                <td style="padding: 8px;">789 Oak St, Chicago, IL</td>
+                <td style="padding: 8px;">(555) 123-4567</td>
+                <td style="padding: 8px;">michael.brown@example.com</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px;">Emily Davis</td>
+                <td style="padding: 8px;">321 Pine St, Miami, FL</td>
+                <td style="padding: 8px;">(444) 987-6543</td>
+                <td style="padding: 8px;">emily.davis@example.com</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px;">James Wilson</td>
+                <td style="padding: 8px;">654 Maple St, Seattle, WA</td>
+                <td style="padding: 8px;">(333) 222-1111</td>
+                <td style="padding: 8px;">james.wilson@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h4 style="color: #555;">REGISTRATION</h4>
+    <p>To register for our services, please fill out the form below:</p>
+    <form action="submit_registration.php" method="post" style="background-color: #fff; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required style="margin-bottom: 10px;"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required style="margin-bottom: 10px;"><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required style="margin-bottom: 10px;"><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required style="margin-bottom: 10px;"><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required> Male  
+        <input type="radio" id="female" name="gender" value="Female" required> Female  
+        <input type="radio" id="other" name="gender" value="Other" required> Other<br>
+        
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading  
+        <input type="checkbox" name="hobbies" value="Gaming"> Gaming  
+        <input type="checkbox" name="hobbies" value="Sports"> Sports<br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" style="margin-bottom: 10px;">
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br>
+        
+        <input type="submit" value="Register" style="background-color: #007BFF; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+    </form>
+</body>
+</html>
